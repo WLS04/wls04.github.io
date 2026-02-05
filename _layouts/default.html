@@ -72,6 +72,10 @@
             <p>{{ site.data.main_info.dept }}</p>
             <p>{{ site.data.main_info.office }}</p>
             <p>{{ site.data.main_info.email }}</p>
+            {% assign linkedin_url = site.data.main_info.linkedin %}
+            {% unless linkedin_url contains '://' %}
+              {% assign linkedin_url = 'https://' | append: linkedin_url %}
+            {% endunless %}
             <p>
               <!-- <span onclick="window.open('{{ site.data.main_info.cv }}')" style="cursor: pointer">
                 <i class="fa ai ai-cv-square" aria-hidden="true"></i>
@@ -93,7 +97,7 @@
                 <i class="ai fa ai-semantic-scholar-square" aria-hidden="true"></i>
               </span> -->
 
-              <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
+              <span onclick="window.open('{{ linkedin_url }}')" style="cursor: pointer">
                 <i class="fa fa-linkedin-square" aria-hidden="true"></i>
               </span>
             </p>
