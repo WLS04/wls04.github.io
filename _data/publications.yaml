@@ -1,17 +1,22 @@
 papers:  
+  - title: "[C4] Entropy-Aware On-Policy Distillation of Language Models"
+    authors: "<b><u>Woogyeol Jin</u></u></b>, <a href='https://mintaywon.github.io/'>Taywon Min</a>, <a href='https://yangyongjin.github.io/'>Yongjin Yang</a>, <a href='https://sites.google.com/site/srkadhe/'>Swanand Ravindra Kadhe</a>, <a href='https://research.ibm.com/people/yi-zhou'>Yi Zhou</a>, <a href='https://sites.google.com/site/dennislwei/'>Dennis Wei</a>, <a href='https://research.ibm.com/people/nathalie-baracaldo-angel'>Nathalie Baracaldo</a>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
+    arxiv: "https://arxiv.org/abs/2603.07079"
+    venue: "<a href='https://icml.cc/Conferences/2026' target='_blank' rel='noopener noreferrer'>International Conference on Machine Learning (ICML)</a>, 2026"
+    selected: y
   - title: "[C3] Learning Multi-View Spatial Reasoning from Cross-View Relations"
     authors: "<a href='https://sites.google.com/view/suchaejeong'>Suchae Jeong<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></a>, <a href='https://songjaehwi.github.io/'>Jaehwi Song<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></a>, <a href='https://haeone.site/'>Haeone Lee</a>, <a href='https://gkssk3654.github.io/hanna/'>Hanna Kim</a>, <a href='https://jiankimr.github.io/'>Jian Kim</a>, <a href='https://dgjun32.github.io/'>Dongjun Lee</a>, <a href='https://donkeyu99.github.io/'>DongKyu Shin</a>, <a href='https://changyeon.site/'>Changyeon Kim</a>, <a href='https://hahmdy.github.io/'>Dongyoon Hahm</a>, <b><u>Woogyeol Jin</u></u></b>, <a href='https://juheonchoi.com/'>Juheon Choi</a>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
-    venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026"
+    arxiv: "https://arxiv.org/abs/2603.27967"
+    venue: "<a href='https://cvpr.thecvf.com/Conferences/2026' target='_blank' rel='noopener noreferrer'>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</a>, 2026"
     selected: y
   - title: "[C2] Unintended Misalignment from Agentic Fine-Tuning: Risks and Mitigation"
-    authors: "<a href='https://hahmdy.github.io/'>Dongyoon Hahm<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></a>, <a href='https://mintaywon.github.io/'>Taywon Min<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></a>, <b><u>Woogyeol Jin<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></u></b>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
+    authors: "<a href='https://hahmdy.github.io/'>Dongyoon Hahm<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></a>, <a href='https://mintaywon.github.io/'>Taywon Min<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></a>, <b><u>Woogyeol Jin<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></u></b>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
     arxiv: "https://arxiv.org/abs/2508.14031"
-    venue: "AAAI Conference on Artificial Intelligence (AAAI), 2026"
+    venue: "<a href='https://aaai.org/conference/aaai/aaai-26/' target='_blank' rel='noopener noreferrer'>AAAI Conference on Artificial Intelligence (AAAI)</a>, 2026"
     selected: y
-
   - title: "[C1] Enhancing LLM Agent Safety via Causal Influence Prompting"
     authors: "<a href='https://hahmdy.github.io/'>Dongyoon Hahm</a>, <b><u>Woogyeol Jin</u></u></b>, <a href='https://choi403.github.io/'>Junesuk Choi</a>, <a href='https://sungsoo-ahn.github.io/'>Sungsoo Ahn</a>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
-    venue: "Findings of the Association for Computational Linguistics (ACL Findings), 2025"
+    venue: "<a href='https://2025.aclweb.org/' target='_blank' rel='noopener noreferrer'>Findings of the Association for Computational Linguistics (ACL Findings)</a>, 2025"
     arxiv: "https://arxiv.org/abs/2507.00979"
     code: "https://github.com/HahmDY/causal-influence-prompting"
     selected: y
